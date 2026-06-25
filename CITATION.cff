@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these custom statistical computational pipelines or tracking plots in your work, please cite the corresponding manuscript as below."
+authors:
+  - family-names: "Authors"
+    given-names: "Anonymous"
+title: "Cas9-shifting"
+version: "1.0.0"
+date-released: 2026-06-25
+url: "https://github.com/lishang82/Cas9-shifting"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Authors"
+      given-names: "Anonymous"
+  title: "A tunable spacer-PAM offset expands the programmability of Cas9 cleavage"
+  year: 2026
+  journal: "Manuscript under submission"
