@@ -18,12 +18,12 @@ Below is an overview of the data processing and statistical tracking scripts com
 │   ├── findcutsiterepairCigarPcdh15RBatch.R
 │   └── findcutsiterepairCigarTmc1RBatch.R
 │
-├── 02_fig3_random_library/             # High-throughput substrate random library profiling (Figure 3)
+├── 03_fig3_random_library/             # High-throughput substrate random library profiling (Figure 3)
 │   ├── 01_library.R                    # Decoding substrate random libraries to map barcode and random region sequences
 │   ├── 02_NSHenrichmentfactor.R        # Target enrichment computations for non-offset gRNA library-mediated cleavage
-│   ├── 03_PAMclassify.R                # Substrate PAM recognition classifications
+│   ├── 03_PAMclassify.R                # Substrate PAM classifications
 │   ├── 04_OSHenrichmentfactor.R        # Target enrichment computations for out1-gRNA library-mediated cleavage
-│   └── 06_OSH1fixbasefrequencycut.R    # Background noise subtraction and motif scaling
-│
-└── 03_cellassay_statistical/           # Downstream validation in cellular models (Figure 3)
+│   └── 05_OSH1fixbasefrequencycut.R    # Characterization of high-efficiency cleavage sequence motifs
+
+└── 04_cellassay_statistical/           # Downstream validation in cellular models (Figure 3)
     └── 01_InDel_pattern.R              # Multi-batch CRISPResso2 integration & 2x5 programmatic plotting
