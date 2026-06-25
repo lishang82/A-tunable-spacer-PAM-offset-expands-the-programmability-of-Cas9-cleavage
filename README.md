@@ -34,7 +34,9 @@ Below is an overview of the data processing and statistical tracking scripts com
 The downstream computational pipelines and statistical scaling models are implemented and validated using R (version 4.2.0 or higher).
 Required Packages
 Run the following initialization block within your R console to establish the environment dependencies:
+```R
 install.packages(c("tidyverse", "VennDiagram", "ggVennDiagram", "patchwork", "scatterplot3d"))
+```
 tidyverse (dplyr, ggplot2, tidyr, stringr) - Core data manipulation and matrix operations.
 ggVennDiagram / VennDiagram - Cross-batch intersection quality control for library replicability.
 scatterplot3d - Projecting duplicate trends to inspect chimera noise convergence.
