@@ -43,7 +43,7 @@ patchwork - Multi-panel alignment for multi-gRNA array configurations.
 ## 🚀 Quick Start Examples
 
 ### 1. Upstream Alignment Pipeline
-```R
+```bash
 cd 01_upstream_pipeline/
 bash 01_alignment_and_analysis.sh <forward_reads.fastq.gz> <reverse_reads.fastq.gz>
 ```
