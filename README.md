@@ -42,23 +42,31 @@ patchwork - Multi-panel alignment for multi-gRNA array configurations.
 
 ## 🚀 Quick Start Examples
 
-1. Upstream Alignment Pipeline
+### 1. Upstream Alignment Pipeline
+```R
 cd 01_upstream_pipeline/
 bash 01_alignment_and_analysis.sh <forward_reads.fastq.gz> <reverse_reads.fastq.gz>
+```
 
 ### 2. In Vitro Cleavage Site Statistical Profiling
 The mutation extraction and CIGAR parsing script lives under `02_fig1_cleavage_sites_statistical/`. It loops recursively through a parent folder to identify and parse all target `result.txt` tables:
-```bash
+```R
 cd 02_fig1_cleavage_sites_statistical/
 # Replace <parent_data_directory> with the actual path containing your subfolders
 Rscript findcutsiterepairCigarOtofRBatch.R <parent_data_directory>
-3. Random Library Decoding
+```
+
+### 3. Random Library Decoding
+```R
 cd 03_fig3_random_library/
 Rscript 01_library.R <path_to_replicate_1.txt> <path_to_replicate_2.txt> <path_to_replicate_3.txt>
+```
 
-4. Cellular InDel pattern Aggregation
+### 4. Cellular InDel pattern Aggregation
+```R
 cd 04_cellassay_statistical/
 Rscript 01_InDel_pattern.R
+```
 
 ## 📄 Data Availability & Citation
 
